@@ -1,0 +1,27 @@
+{
+  "system": {
+    "name": "AI-Powered IDS/IPS System",
+    "version": "1.0.0",
+    "author": "Your Name",
+    "student_id": "Your ID",
+    "course": "Information Security",
+    "semester": "Fall 2025",
+    "instructor": "Maryam Shaikh",
+    "university": "Iqra University, North Campus"
+  },
+  "network": {
+    "interface": "auto",
+    "packet_limit": 1000,
+    "timeout": 30
+  },
+  "ai_model": {
+    "type": "Isolation Forest",
+    "contamination": 0.1
+  },
+  "threat_levels": {
+    "low": 30,
+    "medium": 50,
+    "high": 70,
+    "critical": 85
+  }
+}
